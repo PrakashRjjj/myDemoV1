@@ -1,0 +1,6 @@
+com\testDemo\testCases\BaseClass.class
+com\testDemo\testCases\TC_LoginDDT_002.class
+com\testDemo\pageObject\LoginPage.class
+com\testDemo\utilities\ReadConfig.class
+com\testDemo\utilities\XLUtils.class
+com\testDemo\utilities\Reporting.class

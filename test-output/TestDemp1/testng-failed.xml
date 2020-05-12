@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestDemp1]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.testDemo.utilities.Reporting"/>
+  </listeners>
+  <test name="Test Demo(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testDemo.testCases.TC_LoginDDT_002">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginDDT" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testDemo.testCases.TC_LoginDDT_002 -->
+    </classes>
+  </test> <!-- Test Demo(failed) -->
+</suite> <!-- Failed suite [TestDemp1] -->
